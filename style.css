@@ -1,22 +1,89 @@
-* {
-    margin: 0;
-}
-
-body{
-  background-color: #22212C;
-  color: #837E9F;
-  font-family: 'Merriweather Sans', sans-serif;
-  font-weight: 500;
-}
 :root {
-    --text-color: ;
-    --bg-cards: #302F3D;
-    --bg-techs: #CB92B1;
-  }
+  --body-bg-color: #22212C;
+  --text-color: #837E9F;
+  --bg-cards: #302F3D;
+  --bg-techs: #CB92B1;
+}
 
-#pictureimg {
-    padding: 2px;
-    background-color: #00FF00;
-    border-radius: 60%;
-    width: 5em;
-  }
+* {
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: 500;
+    color: var(--text-color);
+}
+
+a{
+  text-decoration: none;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 348px 1fr;
+  gap: 40px;
+  padding: 40px;
+}
+body{
+  background-color: var(--body-bg-color);
+}
+
+div{
+  background-color: var(--bg-cards);
+  border-radius: 10%;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  padding: 20px;
+}
+
+
+.first-row{
+  gap: 1.5em;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-card{
+  width: auto;;
+  text-align: center;
+}
+
+.profile-card img{
+  padding: 2px;
+  background-color: #00FF00;
+  border-radius: 50%;
+  width: 128px;
+  height: 128px;
+}
+
+.social-card{
+  margin: auto;
+}
+
+.social-card ul,p{
+  list-style: none;
+  display: inline;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  word-wrap: break-word;
+}
+
+.social-card li{
+  padding:  10px;
+  display: flex;
+  text-align: left;
+  gap: 10px;
+}
+
+.second-row{
+  padding: 0 20px;
+}
+
+.project-card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 20px;
+  height: 5em;
+}
+
+
+
