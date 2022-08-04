@@ -1,1 +1,1 @@
-Olá! Esse projeto é meu portfólio enquanto estudo HTML e CSS.
+Olá! Esse projeto é desenvolvido enquanto estudo HTML e CSS pela Rocketseat.
