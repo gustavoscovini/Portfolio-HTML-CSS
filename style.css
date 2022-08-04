@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+}
+
+:root {
+    --body-bg-color: #22212C;
+    --text-color: #837E9F;
+    --bg-cards: #302F3D;
+    --bg-techs: #CB92B1;
+  }
+
+#pictureimg {
+    padding: 2px;
+    background-color: #00FF00;
+    border-radius: 60%;
+    width: 5em;
+  }

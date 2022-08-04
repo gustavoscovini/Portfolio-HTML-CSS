@@ -1,0 +1,1 @@
+Olá! Esse projeto é meu portfólio enquanto estudo HTML e CSS.
