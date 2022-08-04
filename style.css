@@ -38,10 +38,11 @@ div{
   margin-left: 20px;
   display: flex;
   flex-direction: column;
+  flex-basis: 100%;
 }
 
 .profile-card{
-  width: auto;;
+  width: auto;
   text-align: center;
 }
 
@@ -53,9 +54,6 @@ div{
   height: 128px;
 }
 
-.social-card{
-  margin: auto;
-}
 
 .social-card ul,p{
   list-style: none;
