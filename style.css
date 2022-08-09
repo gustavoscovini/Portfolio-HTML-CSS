@@ -27,7 +27,7 @@ body{
 
 div{
   background-color: var(--bg-cards);
-  border-radius: 10%;
+  border-radius: 40px;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   padding: 20px;
 }
@@ -83,5 +83,59 @@ div{
   height: 5em;
 }
 
+.projects{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  align-items: flex-end;
+}
+
+.projects .project{
+  width: max-content;
+  margin-top: 30px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  align-items: baseline;
+  padding: 40px;
+  flex-basis: 42%;
+}
+
+.folder{
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+
+.icons{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.icons img{
+  width: 20px;
+  height: 20px;
+}
+
+#circle {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #837E9F;
+  background: #E7DE79;
+  border-radius: 50%;
+  padding: 0;
+}
+
+.tecnology{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+  align-self: flex-end;
+}
 
 
