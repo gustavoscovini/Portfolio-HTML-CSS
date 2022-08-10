@@ -22,7 +22,7 @@ p{
 .container{
   display: grid;
   grid-template-columns: 348px 1fr;
-  margin: 25px 25px;
+  margin: 20px 20px;
 }
 
 body{
@@ -83,7 +83,7 @@ div{
 }
 
 .second-row{
-  padding: 0 40px;
+  padding: 0 20px 0 40px;
 }
 
 .project-card{
@@ -204,8 +204,14 @@ footer{
   text-align: center;
 }
 
-footer p{
-  font-size: 15px;
+.weight p,h3{
   font-weight: 300;
   word-spacing: 2px;
+  margin: 15px 0 0 0;
+}
+
+.education .works ul{
+  display:flex;
+  flex-direction: column;
+  gap: 20px;
 }
