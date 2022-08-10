@@ -45,6 +45,13 @@ div{
   flex-basis: 100%;
 }
 
+#profileimage {
+  padding: 2px;
+  border-radius: 50%;
+  width: 128px;
+  height: 128px;
+}
+
 .profile-card{
   width: auto;
   text-align: center;
@@ -52,11 +59,7 @@ div{
 }
 
 .profile-card img{
-  padding: 2px;
   background-color: #00FF00;
-  border-radius: 50%;
-  width: 128px;
-  height: 128px;
 }
 
 .social-card{
@@ -149,5 +152,60 @@ div{
 
 .project-card.posts{
   margin-top: 30px;
-  padding: 0 35px;
+  padding: 0px 35px;
+}
+
+.tech{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 0px 10px;
+  margin-top: 20px;
+  gap: 15px;
+}
+
+.tech p{
+  background: var(--bg-techs);
+  padding: 6px 12px;
+  border-radius: 999px;
+  text-align: center;
+  font-size: 12px;
+  color: #000000;
+  font-weight: 700;
+}
+
+
+
+.posts {
+  display: flex;
+  gap: 30px;
+  padding: 25px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.posts section{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.posts h3,h4{
+  margin: 0;
+}
+
+.hashtags{
+  display: flex;
+  gap: 25px;
+}
+
+footer{
+  bottom: 0;
+  text-align: center;
+}
+
+footer p{
+  font-size: 15px;
+  font-weight: 300;
+  word-spacing: 2px;
 }
