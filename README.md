@@ -7,3 +7,6 @@ Olá! Esse projeto foi desenvolvido enquanto estudava HTML e CSS pela Rocketseat
 * HTML
 * CSS
 * Figma
+
+## Link para o Projeto online:
+https://gustavoscovini.github.io/Portfolio-Rocketseat/
