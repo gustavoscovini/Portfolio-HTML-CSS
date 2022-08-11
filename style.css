@@ -36,7 +36,6 @@ div{
   padding: 20px;
 }
 
-
 .first-row{
   gap: 1.5em;
   margin-left: 20px;
@@ -210,8 +209,9 @@ footer{
   margin: 15px 0 0 0;
 }
 
-.education .works ul{
+.works .education ul{
   display:flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 10px;
 }
+
